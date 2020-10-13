@@ -1,0 +1,87 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #72E2D3;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #5AA552;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+
+.navbar-brand h1 { 
+  color: #557c3e;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+.text {
+  position: relative;
+  border: 2px solid black;
+  background-color: grey;
+  width: 90%;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 1%;
+  text-align: left;
+  margin-bottom: 10px;
+  }
+h2 {
+  top: 0%;
+  right: 0%;
+  border: 2px;
+  width:150px;
+  height: 30px;
+  margin-top: 0%;
+  margin-right:0%;
+  margin-bottom: 10px;
+  text-align: center;
+  position: absolute;
+}
+
+#green {background-color: green;}
+#blue {background-color: blue;}
+#yellow {background-color: yellow;}
+
+p{margin-top: 10%;
+text-align: left;}
+
+.row {
+  width: 100%;}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    padding: 2%;
+    margin: 1%;}
+  .col-lg-4 {
+    width: 30%;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    padding: 2%;
+    margin:1%;}
+  .col-md-6 {
+    width: 45%;}
+  .col-md-12 {
+    width: 90%;}
+
+}
+
+
